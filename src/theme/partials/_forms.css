@@ -1,0 +1,17 @@
+@import './_variables.css';
+@import './_buttons.css';
+
+input[type='text'] {
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--secondary-color);
+  background: var(--secondary-color);
+}
+
+input[type='text'] .full-width {
+  display: flex;
+  width: 100%;
+}
+
+.form-border-danger {
+  border: 1px solid var(--danger-color);
+}

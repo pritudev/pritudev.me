@@ -1,0 +1,28 @@
+@import './_variables.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.indigo-btn {
+  text-decoration: none !important;
+  border: 2px solid #90a0d9 !important;
+  background-color: transparent !important;
+  font-weight: 800 !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin: 10px 10px !important;
+  color: #90a0d9 !important;
+  font-family: var(--button-font) !important;
+  text-transform: uppercase !important;
+  box-shadow: inset 0 0 0 0 #90a0d9;
+  -webkit-transition: ease-out 0.4s !important;
+  -moz-transition: ease-out 0.4s !important;
+  transition: ease-out 0.4s !important;
+  display: inline-block !important;
+}
+
+.indigo-btn:hover {
+  box-shadow: inset 400px 0 0 0 #90a0d9 !important;
+  color: #23283e !important;
+}

@@ -1,0 +1,15 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: black;
+  color: white;
+}
+
+code {
+  font-family: 'fira code';
+}
+
+img {
+  width: 95%;
+  padding: 1rem;
+  margin: 0 auto;
+}

@@ -1,0 +1,18 @@
+@import './_variables.css';
+@import './_buttons.css';
+
+.showcase h1 {
+  font-family: var(--sans-serif-font) !important;
+  font-size: 4rem !important;
+  color: var(--h-color) !important;
+  margin: 1rem !important;
+}
+
+h1 {
+  font-family: inherit;
+  font-weight: 1000 !important;
+}
+
+#gradient-text {
+  color: #90a0d9;
+}

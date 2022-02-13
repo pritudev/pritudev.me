@@ -1,0 +1,28 @@
+.about_image {
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+}
+
+section {
+  font-size: 20px;
+}
+
+section p {
+  text-align: center;
+  padding: 10px;
+  color: #bdbddd !important;
+  font-family: 'sofiapro';
+  font-size: 25px;
+  font-weight: 300;
+  margin: 28px 0px;
+}
+
+h2 {
+  color: #bdbddd !important;
+  text-transform: uppercase;
+  font-size: 2rem !important;
+  font-weight: 1000 !important;
+  font-family: var(--poppins-font) !important;
+}

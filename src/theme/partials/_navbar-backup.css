@@ -1,0 +1,215 @@
+@import './_variables.css';
+@import './_buttons.css';
+
+.nav-svgs {
+  padding-bottom: 10px 0;
+}
+
+.hover-text {
+  transition: 10ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+}
+
+.link {
+  transition: 10ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+}
+
+.nav-ul:hover {
+  color: #90a0d9 !important;
+}
+
+.navbar {
+  background: var(--gray5) !important;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  background: var(--primary-color) !important;
+  width: 100% !important;
+}
+
+.navbar .container {
+  background: var(--primary-color) !important;
+  display: flex;
+  justify-content: space-evenly;
+  top: 100;
+  width: 100% !important;
+}
+
+.navbar .nav-ul {
+  background: var(--primary-color) !important;
+  font-size: 1rem;
+  display: flex;
+  list-style: none !important;
+  margin-bottom: 0 !important;
+}
+
+.navbar .nav-ul li {
+  background: var(--primary-color) !important;
+  font-size: 1rem;
+  list-style: none !important;
+  text-align: center !important;
+}
+
+.navbar .nav-ul li .link {
+  background: var(--primary-color) !important;
+  font-size: 1.3rem;
+  color: var(--h-color) !important;
+  text-decoration: none;
+  display: block;
+  font-weight: var(--fw-10) !important;
+  transition: 500ms !important;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 800px) {
+  #main-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .navbar {
+    background: var(--primary-color) !important;
+  }
+
+  .navbar .container {
+    display: block;
+  }
+
+  .navbar .link {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 1.3rem !important;
+  }
+
+  .link {
+    padding: 0 !important;
+  }
+  .link:hover {
+    color: #90a0d9 !important;
+  }
+
+  .navbar .nav-ul {
+    text-align: center !important;
+    font-size: 0.3rem;
+    width: 100%;
+    align-items: center;
+    display: contents;
+  }
+
+  .navbar .nav-ul li {
+    font-size: 0.3rem;
+    display: flex;
+    text-align: center !important;
+    background: var(--primary-color);
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .nav-ul {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: contents;
+  }
+
+  #main-brand {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .link {
+    text-align: center !important;
+    font-size: 0.6rem !important;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #main-brand {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .link {
+    font-size: 0.1rem !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 367px) {
+  #main-brand {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navbar .nav-ul li .link {
+    font-size: 1rem !important;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 277px) {
+  #main-brand {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navbar .nav-ul li .link {
+    font-size: 0.9rem !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 249px) {
+  #main-brand {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navbar .nav-ul li .link {
+    font-size: 0.9rem !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.link {
+  color: #fff;
+  font-family: var(--sans-serif-font);
+  font-size: 1.3rem;
+  text-transform: lowercase;
+  font-weight: var(--fw-6);
+  text-align: center !important;
+  display: flex;
+  background-color: #2d2e2e;
+  color: var(--h-color);
+}
+
+@media screen and (max-width: 769px) {
+  .link {
+    font-size: 0.6rem !important;
+  }
+}

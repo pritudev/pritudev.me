@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
+@import './_variables.css';
+@import './_buttons.css';
+
+.post-container {
+  padding: 2rem !important;
+  display: grid;
+  border-radius: 6px;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.post {
+  display: grid;
+  padding: 0.8rem 0.9rem;
+  border-radius: 6px;
+  background: #2a2f4c !important;
+  box-shadow: var(--nav-shadow) !important;
+  grid-template-columns: 1fr;
+  color: #2a2f4c;
+  margin: 0.5rem 0.5rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  line-height: 1.5;
+  transition: 400ms cubic-bezier(0, 0, 0.2, 1) !important;
+}
+
+.post .post-header {
+  background-color: #2a2f4c !important;
+  font-family: var(--poppins-font) !important;
+  color: var(--h-color) !important;
+  margin: 0;
+  letter-spacing: 2px;
+  width: 100%;
+  text-align: left !important;
+  margin-right: 0;
+  margin-left: 0;
+  font-size: 1.7rem !important;
+  transition: 500ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+}
+
+.post h2 {
+  background-color: #2a2f4c !important;
+  font-family: var(--poppins-font) !important;
+  color: #cdcdff !important;
+  font-weight: var(--fw-6) !important;
+  margin: 0;
+  /* letter-spacing: 2px; */
+  text-transform: capitalize;
+  width: 100%;
+  text-align: left !important;
+  margin-right: 0;
+  margin-left: 0;
+  font-size: 1.7rem !important;
+  transition: 500ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+}
+
+.link {
+  text-decoration: none !important;
+}
+a {
+  text-decoration: none !important;
+  color: var(--green-light) !important;
+}
+
+.post p {
+  font-size: 17px;
+  margin-top: 15px;
+  color: var(--p-color) !important;
+  font-family: var(--p-font) !important;
+  background-color: #2a2f4c !important;
+}
+
+@media screen and (max-width: 768px) {
+  .post-container {
+    grid-template-columns: 1fr;
+    padding: 0 !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .post-container {
+    grid-template-columns: 1fr;
+    padding: 0 !important;
+  }
+}
+
+.post:hover {
+  transform: translateY(-4px);
+}

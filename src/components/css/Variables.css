@@ -1,0 +1,10 @@
+:root {
+  --primary-color: rgb(10, 9, 54);
+  --secondary-color: rgb(23, 21, 66);
+
+  --theme-colors: ('primary': rgb(10, 9, 54), 'danger': #ff4136);
+  --serif-fonts-blog: 'Merriweather', 'Georgia', Cambria, 'Times New Roman',
+    Times, serif;
+  --body-bg: rgb(10, 9, 54);
+  --body-color: #111;
+}
