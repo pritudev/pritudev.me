@@ -17,6 +17,17 @@ const Projects = () => {
           </div>
         </a>
         {/* Project 2 */}
+        <a href="https://github.com/pritudev/blog.pritudev.me" target="_blank">
+          <div className="post">
+            <div className="post-content">
+              <img
+                alt="github repo pritudev personal blogging website"
+                src="https://github-readme-stats.vercel.app/api/pin/?username=pritudev&repo=blog.pritudev.me"
+              ></img>
+            </div>
+          </div>
+        </a>
+        {/* Project 3 */}
         <a href="https://github.com/pritudev/create-webdev-app" target="_blank">
           <div className="post">
             <div className="post-content">
@@ -27,7 +38,7 @@ const Projects = () => {
             </div>
           </div>
         </a>
-        {/* Project 3 */}
+        {/* Project 4 */}
         <a href="https://github.com/pritudev/pritu-dark-theme" target="_blank">
           <div className="post">
             <div className="post-content">
@@ -38,7 +49,7 @@ const Projects = () => {
             </div>
           </div>
         </a>
-        {/* Project 4 */}
+        {/* Project 5 */}
         <a href="https://github.com/pritudev/Typefiddle" target="_blank">
           <div className="post">
             <div className="post-content">
@@ -49,7 +60,7 @@ const Projects = () => {
             </div>
           </div>
         </a>
-        {/* Project 5 */}
+        {/* Project 6 */}
         <a href="https://github.com/pritudev/vinlybot" target="_blank">
           <div className="post">
             <div className="post-content">
