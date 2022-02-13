@@ -91,43 +91,6 @@ module.exports = {
             }
           }
         `,
-
-        feeds: [
-          {
-            serialize: ({ query: { site, allMdx } }) => {
-              return allMdx.nodes.map((node) => {
-                return Object.assign({}, node.frontmatter, {
-                  description: node.excerpt,
-                  date: node.frontmatter.date,
-                  url: site.siteMetadata.siteUrl + node.fields.slug,
-                  guid: site.siteMetadata.siteUrl + node.fields.slug,
-                  custom_elements: [{ 'content:encoded': node.html }],
-                })
-              })
-            },
-            query: `
-              {
-                allMdx(
-                  limit: 50,
-                  sort: { order: DESC, fields: [frontmatter___date] },
-                  filter: {frontmatter: {published: {eq: true}}}
-                ) {
-                    nodes {
-                      excerpt
-                      html
-                      fields { slug }
-                      frontmatter {
-                        title
-                        date
-                    }
-                  }
-                }
-              }
-            `,
-            output: '/rss.xml',
-            title: `Pritudev Feed`,
-          },
-        ],
       },
     },
 
