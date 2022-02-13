@@ -55,8 +55,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: process.env.GOOGLE_TRACKING,
-        head: true,
+        trackingId: `G-SNZ3SF5BM8`,
       },
     },
     `gatsby-remark-reading-time`,
