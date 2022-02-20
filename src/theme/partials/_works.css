@@ -38,3 +38,45 @@ abbr {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+.skills-grid {
+  padding-left: 8px;
+  padding-right: 8px;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  cursor: default;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .skills-grid {
+    padding: 5px;
+    gap: 0.7rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 772px) {
+  .skills-grid {
+    padding: 5px;
+    gap: 0.7rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 507px) {
+  .skills-grid {
+    padding: 5px;
+    gap: 0.7rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 300px) {
+  .skills-grid {
+    padding: 5px;
+    gap: 0.7rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}

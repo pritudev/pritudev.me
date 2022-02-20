@@ -51,7 +51,7 @@ export default ({ data }) => {
       <Showcase />
       <h2>🎒 My Backpack</h2>
       <br />
-      <section className="basic-grid">
+      <section className="skills-grid">
         <abbr id="tooltip" title="Firebase">
           <div className="img">
             <div id="tooltip">
@@ -61,14 +61,14 @@ export default ({ data }) => {
           </div>
         </abbr>
 
-        <abbr id="tooltip" title="Git">
+        {/* <abbr id="tooltip" title="Git">
           <div className="img">
             <div id="tooltip">
               <img alt="Git" src={git} />
             </div>
             <span id="tooltiptext">Git</span>
           </div>
-        </abbr>
+        </abbr> */}
         <abbr id="tooltip" title="Github">
           <div className="img">
             <div id="tooltip">
@@ -101,7 +101,7 @@ export default ({ data }) => {
           </div>
           <span id="tooltiptext">Javascript</span>
         </abbr>
-
+        {/* 
         <abbr id="tooltip" title="Node JS">
           <div className="img">
             <div id="tooltip">
@@ -109,24 +109,24 @@ export default ({ data }) => {
             </div>
           </div>
           <span id="tooltiptext">Node JS</span>
-        </abbr>
+        </abbr> */}
 
-        <abbr id="tooltip" title="Visual Studio Code">
+        {/* <abbr id="tooltip" title="Visual Studio Code">
           <div className="img">
             <div id="tooltip">
               <img alt="Visual Studio Code" src={vsc} />
             </div>
           </div>
           <span id="tooltiptext">VS Code</span>
-        </abbr>
-        <abbr id="tooltip" title="python">
+        </abbr> */}
+        {/* <abbr id="tooltip" title="python">
           <div className="img">
             <div id="tooltip">
               <img alt="Python" src={python} />
             </div>
           </div>
           <span id="tooltiptext">Python</span>
-        </abbr>
+        </abbr> */}
       </section>
       <br />
       <br />
