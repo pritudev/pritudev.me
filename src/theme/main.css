@@ -55,6 +55,7 @@ body {
 }
 
 strong {
+  background: none;
   font-weight: 700 !important;
 }
 
