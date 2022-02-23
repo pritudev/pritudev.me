@@ -48,7 +48,7 @@ body {
 }
 
 .navbar-links li a {
-  background: var(--primary-color) !important;
+  /* background: var(--primary-color) !important; */
   font-size: 1.3rem;
   color: var(--h-color) !important;
   text-decoration: none;

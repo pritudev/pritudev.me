@@ -15,7 +15,7 @@
   display: grid;
   padding: 0.8rem 0.9rem;
   border-radius: 6px;
-  background: #2a2f4c !important;
+  /*  background-color: #2a2f4c !important; */
   box-shadow: var(--nav-shadow) !important;
   grid-template-columns: 1fr;
   color: #2a2f4c;
@@ -27,7 +27,7 @@
 }
 
 .post .post-header {
-  background-color: #2a2f4c !important;
+  /*  background-color: #2a2f4c !important; */
   font-family: var(--poppins-font) !important;
   color: var(--h-color) !important;
   margin: 0;
@@ -41,7 +41,7 @@
 }
 
 .post h2 {
-  background-color: #2a2f4c !important;
+  /*  background-color: #2a2f4c !important; */
   font-family: var(--poppins-font) !important;
   color: #cdcdff !important;
   font-weight: var(--fw-6) !important;
@@ -69,7 +69,7 @@ a {
   margin-top: 15px;
   color: var(--p-color) !important;
   font-family: var(--p-font) !important;
-  background-color: #2a2f4c !important;
+  /*  background-color: #2a2f4c !important; */
 }
 
 @media screen and (max-width: 768px) {
